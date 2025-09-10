@@ -1,0 +1,101 @@
+.about-section {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+.about-avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid #06b6d4;
+  box-shadow: 0 4px 24px rgba(0,255,255,0.10);
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+.about-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.about-subtitle {
+  color: #a1a1aa;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+.about-desc {
+  color: #b0b3b8;
+  margin-top: 0.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-avatar-glow {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 10px;
+  background: radial-gradient(circle, #06b6d4 0%, #23272f 70%);
+  box-shadow: 0 0 40px 10px #06b6d4;
+  transition: box-shadow 0.3s, background 0.3s;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.about-avatar-glow:hover {
+  box-shadow: 0 0 80px 20px #22d3ee, 0 0 40px 10px #06b6d4;
+  background: radial-gradient(circle, #22d3ee 0%, #23272f 70%);
+}
+.about-avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  display: block;
+}
+.about-avatar-glow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  border-radius: 50%;
+  box-shadow: 0 0 32px 8px #a78bfa55, 0 4px 24px rgba(0,0,0,0.10);
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+  background: #23272f;
+  width: 160px;
+  height: 160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-avatar-glow:hover {
+  box-shadow: 0 0 48px 16px #a78bfa, 0 4px 24px rgba(0,0,0,0.15);
+}
+.about-avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #18181b;
+}
+.about-card {
+  background: #23272f;
+  border-radius: 1.2rem;
+  box-shadow: 0 0 32px 8px #a78bfa33, 0 4px 24px rgba(0,0,0,0.10);
+  padding: 2rem 2rem 1.5rem 2rem;
+  margin: 0 auto;
+  max-width: 540px;
+  margin-bottom: 2rem;
+  transition: box-shadow 0.3s, border 0.3s, transform 0.25s;
+  border: 1.5px solid transparent;
+  text-align: center;
+}
+
+.about-card:hover {
+  box-shadow: 0 0 48px 16px #a78bfa, 0 4px 24px rgba(0,0,0,0.15);
+  border: 1.5px solid #a78bfa;
+  transform: scale(1.025);
+}
+.about-avatar-glow {
+  /* ...existing styles... */
+  margin-bottom: 4.2rem; /* increase this value for more space */
+}
